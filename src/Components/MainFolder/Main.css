@@ -1,0 +1,54 @@
+/* ===== МИНИМАЛИСТИЧНЫЙ ВАРИАНТ ===== */
+:root {
+  --bg: #0c0c12;
+  --text: #f0f0f0;
+  --text-soft: #a8a8b8;
+  --accent: #9f8be5;
+  --gold: #e6c87c;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  margin: 0;
+}
+
+.screen {
+  max-width: 900px;
+  margin: 0;
+  padding: 60px 20px;
+}
+
+.eye {
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.sys-h {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 1.5rem;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.sys-h em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.sys-sub {
+  font-size: 1.1rem;
+  color: var(--text-soft);
+  font-style: italic;
+  border-left: 3px solid var(--accent);
+  padding-left: 1.5rem;
+  max-width: 500px;
+}
